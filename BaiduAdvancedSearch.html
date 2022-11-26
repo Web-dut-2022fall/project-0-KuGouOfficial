@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/advjs.js"></script>
+</head>
+<body>
+<div>
+    <h3 style="color:blue">使用以下条件来搜索网页...</h3>
+    <form action="https://www.baidu.com/s?" method="get">
+
+        <div>
+            <div>
+                包含以下的<span class="lighton">所有</span>字词：
+                <div><input type="text" name="q1"></div>
+            </div>
+        </div>
+        <div>
+            <div>
+                完全匹配以下<span class="lighton">所有关键字词</span>：
+                <div><input type="text" name="q2"></div>
+            </div>
+        </div>
+        <div>
+            <div>
+                可能包含以下<span class="lighton">任意关键词</span>：
+                <div><input type="text" name="q3"></div>
+            </div>
+        </div>
+        <div>
+            <div>
+                不包含以下<span class="lighton">所有字词</span>：
+                <div><input type="text" name="q4"></div>
+            </div>
+        </div>
+        <input type="submit" value="高级搜索">
+    </form>
+</div>
+<div>
+    <button type="button">
+        返回百度搜索
+    </button>
+</div>
+</body>
+</html>
