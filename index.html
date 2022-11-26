@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Baidu Regular Search</title>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/JS_style.js"></script>
+    <script>
+        console.log('index');
+    </script>
 </head>
 <body>
 <form action="https://www.baidu.com/s">
-    <input type="text" name="wd">
-    <input type="submit" value="Baidu Search">
+    <input id="input1" type="text" name="wd">
+    <input type="submit" value="百度一下">
 
 </form>
 <ul>
-    <li><a href="BaiduImageSearch.html">Baidu Image Search</a></li>
-    <li><a href="">Baidu Advanced Search</a></li>
+    <li><a href="BaiduImageSearch.html">图片搜索</a></li>
+    <li><a href="BaiduAdvancedSearch.html">高级搜索</a></li>
 </ul>
 
-
+<button type="button" >关灯</button>
 </body>
 </html>
